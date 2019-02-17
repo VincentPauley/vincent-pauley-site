@@ -5,9 +5,9 @@ var express = require( 'express' );
 var app = express();
 
 app.use( helmet() );
-app.use( express.static( 'public' ) );
+app.use( express.static( 'dist' ) );
 
-var port = process.env.DEV_PORT || 3000;
+var port = process.env.PORT || 3000;
 
 console.log( process.env.NODE_ENV );
 
