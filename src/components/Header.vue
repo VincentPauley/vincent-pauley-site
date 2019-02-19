@@ -1,8 +1,10 @@
 <template>
     <header class="jumbotron">
-        <h1>{{ header }}</h1>
-        <div class="sub-header-wrapper">
-            <p>{{ sub_header }}</p>
+        <div class="container">
+            <h1>{{ header }}</h1>
+            <div class="sub-header-wrapper">
+                <p>{{ sub_header }}</p>
+            </div>
         </div>
     </header>
 </template>
@@ -32,11 +34,19 @@
     header.jumbotron {
         border-radius: 0px;
     }
-    header > h1 {
-        font-size: 72px;
+    header > .container > h1 {
+        font-size: 10vw;
         color: white;
         text-shadow: 2px 2px 2px $shadow_color;
     }
+
+    @media screen and (max-width: 400px ) {
+        header > .container > h1 {
+            font-size: 30px;
+            text-align: center;
+        }
+    }
+
     .sub-header-wrapper {
         padding: 5px 10px;
         background-color: #FFF;

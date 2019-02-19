@@ -9,7 +9,7 @@ app.use( express.static( 'dist' ) );
 
 var port = process.env.PORT || 3000;
 
-console.log( process.env.NODE_ENV );
+console.log( port );
 
 app.listen( port, () => {
 
