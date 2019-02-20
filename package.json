@@ -22,10 +22,15 @@
   },
   "homepage": "https://github.com/VincentPauley/vincent-pauley-site#readme",
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.15",
+    "@fortawesome/free-solid-svg-icons": "^5.7.2",
+    "@fortawesome/vue-fontawesome": "^0.1.5",
     "bootstrap": "^4.3.1",
     "dotenv": "^6.2.0",
     "express": "^4.16.4",
     "helmet": "^3.15.1",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.7",
     "vue": "^2.6.6"
   },
   "devDependencies": {

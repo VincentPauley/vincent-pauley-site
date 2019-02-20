@@ -31,8 +31,10 @@
         background: $jumbo_bg_right; // < default bg
         background-image: linear-gradient(33deg, $jumbo_bg_left, $jumbo_bg_right);
     }
+    // overwrite bootstrap jumbotron defaults
     header.jumbotron {
         border-radius: 0px;
+        margin-bottom: 0px;
     }
     header > .container > h1 {
         font-size: 10vw;
