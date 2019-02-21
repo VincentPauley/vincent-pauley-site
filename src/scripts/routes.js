@@ -13,6 +13,10 @@ let routes = [
     {
         path: '/notes',
         component: require( '../components/Notes.vue' ).default
+    },
+    {
+        path: '/auth',
+        component: require( '../components/Auth.vue' ).default
     }
 ];
 

@@ -5,6 +5,7 @@ import VueRouter from 'vue-router';
 
 Vue.use( VueRouter );
 
+import "axios";
 import "bootstrap";
 
 // icon stuff

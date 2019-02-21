@@ -24,6 +24,9 @@
                 <router-link tag="li" to="/notes" class="nav-item">
                     <a href="#">Notes</a>
                 </router-link>
+                <router-link tag="li" to="/auth" class="nav-item">
+                    <a href="#">Auth</a>
+                </router-link>
             </ul>
         </div>
 
