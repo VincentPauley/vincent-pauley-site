@@ -9,6 +9,10 @@ let routes = [
     {
         path: '/about',
         component: require( '../components/About.vue' ).default
+    },
+    {
+        path: '/notes',
+        component: require( '../components/Notes.vue' ).default
     }
 ];
 

@@ -14,12 +14,15 @@
 
         <div class="collapse navbar-collapse" id="navigation-options">
             
-            <ul class="navbar-nav list-group">
-                <router-link tag="li" to="/" class="nav-item list-group-item">
+            <ul class="navbar-nav">
+                <router-link tag="li" to="/" class="nav-item">
                     <a href="#">Home</a>
                 </router-link>
-                <router-link tag="li" to="/about" class="nav-item list-group-item">
+                <router-link tag="li" to="/about" class="nav-item">
                     <a href="#">About</a>
+                </router-link>
+                <router-link tag="li" to="/notes" class="nav-item">
+                    <a href="#">Notes</a>
                 </router-link>
             </ul>
         </div>

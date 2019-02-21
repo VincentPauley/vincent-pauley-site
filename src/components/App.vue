@@ -3,8 +3,10 @@
         <Header></Header>
         <NavBar></NavBar>
 
-        <!-- Output Routes -->
-        <router-view></router-view> 
+        <div class="container">
+            <!-- Output Routes -->
+            <router-view></router-view>         
+        </div>
     </div>
 </template>
 
